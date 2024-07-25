@@ -1,0 +1,191 @@
+/* SMALL DEVICES (LANDSCAPE PHONES UPTO 516PX AND BELOW) */
+@media(width<=576px){
+    .grid-2,.grid-3,.grid-4,.grid-5,.grid-6{
+        display: grid;
+        grid-template-columns: 1fr ;
+    }
+   
+    .align {
+        max-width: 576px;
+        margin: 0;
+        padding: 0;
+    }
+    .componentSpacing{
+        padding: 1rem;
+    }
+    .newsAndBullet{
+        padding-right: 0;
+    }
+    .newsColumn h2{
+        margin-right: 0;
+    }
+    .bulletHeader h2{
+        margin-bottom: 1rem;
+    }
+.Cards {
+    flex-direction: column;
+    padding: 0;
+    width: 100%;
+    align-items: center;
+}
+
+.cardImage img{
+    width: 100%;
+    aspect-ratio: 1 / 1;
+}
+.card{
+    width: 30rem;
+    min-height: 36rem;
+    margin-top: 2rem;
+} 
+.cardBody{
+    text-wrap: none;
+}
+/* .cardBody p{
+
+} */
+.cardBottom button {
+    width: 100%;
+}
+
+.bulletLinks{
+    width: 100%;
+}
+.bulletHeader h2{
+    padding: 0;
+}
+.listHeading a{
+    margin: 0;
+}
+
+.listContent{
+    margin-bottom: 1.5rem;
+}
+.doubtColumn{
+    width: 90%;
+}
+.placementHeading h2{
+    margin: 0;
+}
+.placementColumn1{
+    padding-right: 1rem;
+}
+.placementBody{
+    /* padding: 1rem; */
+    margin-left: 0;
+}
+.rankingHeader{
+    margin-bottom: 1rem;
+}
+.rankingHeading h2 a{
+    padding: 0;
+    font-size: 4rem;
+}
+.rankingCard {
+    padding: 0;
+}
+.rankingCard h4{
+    font-size: 2rem;
+}
+.rankingCard p {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.rankingBody{
+    padding: 0;
+    width: 100%;
+}
+.rankingColumn1Row1{
+    width: 100%;
+    margin-bottom: 1rem;
+}
+.rankingColumn1Row2{
+    width: 100%;
+    margin-bottom: 1rem;
+}
+.rankingNumCard h4{
+    font-size: 1.5rem;
+}
+.rankingColumn1Row3{
+    width: 100%;
+}
+.ranking3Image{
+    gap: 1.5rem;
+}
+.rankingColumn2 {
+    padding: 1rem;
+}
+.tropyImage img{
+    aspect-ratio: 7/9;
+}
+
+.internationalHeading h2{
+    padding: 0;
+    /* margin-bottom: 0.8rem; */
+}
+.intlExpl{
+    padding: 0.6rem;
+    font-size: 1.5rem;
+    /* margin: 0.8rem; */
+}
+.internationalBody{
+    padding: 0;
+}
+.internationalFlags .flags {
+    padding: 0;
+}
+.flags img{
+    padding: 0;
+}
+.internationalFlags p{
+    padding: 1rem;
+}
+.leadersofkare .leadersHeader .leaderHeading h2 a{
+    padding: 0;
+
+}
+.leadersBody {
+    padding: 0;
+}
+.leaderImage img{
+    margin-bottom: 0.5rem;
+}
+.leaderCard {
+    padding: 1rem;
+}
+.whyKareHeader{
+    padding-bottom: 1rem;
+}
+.whyKareHeading h2 a{
+    padding: 0;
+}
+.whyKareHeading h4 {
+    padding: 0;
+    font-size: 2rem;
+    font-weight: 400;
+}
+.whyKareBody{
+    padding: 1rem;
+}
+.infrastructure{
+    margin-bottom: 1rem;
+}
+.testimonialsHeading h2 a{
+    padding: 0;
+}
+.testimonialsHeading h2{
+    padding-bottom: 0rem;
+    margin-right: 7rem;
+}
+.testimonialsBody{
+    padding-left: 8rem;
+    padding-bottom: 0rem;
+}
+.industryHeader{
+    padding: 1rem;
+
+}
+.industryBody{
+    padding: 0;
+}
+}
